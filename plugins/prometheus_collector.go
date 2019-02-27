@@ -1,8 +1,8 @@
 package plugins
 
 import (
-	"github.com/afex/hystrix-go/hystrix/metric_collector"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/vetmik/hystrix-go/hystrix/metric_collector"
 )
 
 // Constant namespace for metrics
@@ -21,8 +21,8 @@ const PROMETHEUS_NAMESPACE = "hystrix_go"
 //  package main
 //
 //  import (
-//  	"github.com/afex/hystrix-go/plugins"
-//  	"github.com/afex/hystrix-go/hystrix/metric_collector"
+//  	"github.com/vetmik/hystrix-go/plugins"
+//  	"github.com/vetmik/hystrix-go/hystrix/metric_collector"
 //  )
 //
 //  func main() {
